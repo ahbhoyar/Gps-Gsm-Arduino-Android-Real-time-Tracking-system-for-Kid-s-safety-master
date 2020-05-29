@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="single">
+        <item android:title="select the Map type">
+            <menu>
+                <item
+                    android:id="@+id/normal"
+                    android:checkable="true"
+                    android:title="normal"
+                    app:showAsAction="always" />
+                <item
+                    android:id="@+id/satellite"
+                    android:checkable="true"
+                    android:title="satellite"
+                    app:showAsAction="always" />
+                <item
+                    android:id="@+id/hybrid"
+                    android:checkable="true"
+                    android:title="hybrid"
+                    app:showAsAction="always" />
+                <item
+                    android:id="@+id/territon"
+                    android:checkable="true"
+                    android:title="territon"
+                    app:showAsAction="always" />
+            </menu>
+        </item>
+    </group>
+    <item
+        android:id="@+id/route"
+        android:title="find the route"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/placePicker"
+        android:title="placePicker"
+        app:showAsAction="never|collapseActionView" />
+    <item
+        android:id="@+id/start"
+        android:title="start the service"
+        app:showAsAction="never" />
+
+
+</menu>
